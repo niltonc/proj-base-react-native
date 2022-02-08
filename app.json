@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "MaxxidataTeste",
+    "slug": "MaxxidataTeste",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "0.0.2",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.maxxidata.MaxxidataTeste",
+      "buildNumber": "0.0.2"
+    },
+    "android": {
+      "package": "com.maxxidata.maxxidata_teste",
+      "useNextNotificationsApi": true,
+      "versionCode": 2
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
